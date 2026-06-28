@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { Identity } from '../pages/LoginPages';
+import { Identity } from '../pages/Lo';
 
 // Using a beforeEach hook to handle repetitive navigations cleanly
 test.beforeEach(async ({ page }) => {
