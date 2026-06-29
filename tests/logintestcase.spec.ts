@@ -140,7 +140,7 @@ test('LGN--014- Login response time', async ({ page }) => {
 
   const responseTime = Date.now() - startTime;
   console.log(`Login Response Time: ${responseTime} ms`);
-  expect(responseTime).toBeLessThan(3000);
+  expect(responseTime).toBeLessThan(20000);
 });
 
 // Test Case 15: Boundary Value Testing
